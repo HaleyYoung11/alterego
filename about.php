@@ -1,0 +1,16 @@
+<?php include('header.php');?>
+
+            <div class="header-image about-page">
+            </div>
+            <section>
+                <h1>About Haley</h1>
+                    <p>Haley knew she wanted to be an author at the age of nine, when she wrote her first book over the course of her fourth grade year. Chronicling the adventures of a lost dog named Cyber intent on reuniting with his owner, it was an impressive feat for a child - though she thinks it's rather rough looking back. She would come home from school every day, sit in front of the computer in her parents' office room, and type away for hours on end. Before she knew it she had written nearly 300 pages... and discovered a new passion.</p>
+                    <p>From that day forward, she never considered another career possibility besides writing. She published <i>Cyber</i> two years after it was written and released her second book, <i>My World In Lists</i> three years after that. Another four years down the road she debuted her most recent novel, <i>Willow Street</i>, shortly before her high school graduation.</p>
+                    <p>Her three published works are all vastly different - Haley believes that much of the beauty of writing lies in the freedom to create whatever you desire, no matter how varied those desires may be. Through her words she has been able to capture a child's imagination, explore the ways in which we categorize our world, and even investigate government corruption. She has done this all with a careful focus on the power of relationships and the interconnectivity of the world; she is enthralled by our ability to relate to one another as humans. While she loves words immensely, she loves the stories that they birth even more.</p>
+                    <p>Haley is currently studying creative writing at Brown University in Rhode Island, enjoying every breath of the crisp New England air. Although she was born and raised in Wisconsin, she has found a new sense of home on the East Coast and looks forward to where her adventures may take her next. Between classes and student organizations she is working on a fourth novel but has yet to reveal what sort of story she will tell next.</p>
+                    <p>One day Haley hopes to travel the world and tell its stories, living in small towns and big cities across the globe as she writes about them. It is her dream to publish books that ignite conversation and inspire relationships. She is a firm believer that we are all part of something bigger, and she feels strongly that her role is to continue reaching out through writing. If even one person can be touched by her words, she will continue every last labor to be worth it.</p>
+                    <p>Besides writing, Haley loves black coffee, good theater, and morning walks before the rest of the world wakes up. Her room is decorated with roses she buys for herself and is also home to a grand piano that she will only play for a special few. She proudly shares her life with a rabbit named Hamlet.</p>
+                    <p>You can get in touch with Haley by emailing her <a href="mailto:haleyeyoung11@gmail.com">here</a>. If you want extra bonus points, send a handwritten letter to <i>Providence, Rhode Island 02912</i>.</p>
+            </section>
+
+<?php include('footer.php');?>

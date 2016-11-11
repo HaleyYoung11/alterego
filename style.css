@@ -1,0 +1,293 @@
+/**
+AlterEgo Project CSS
+Created by Haley Young
+**/
+
+
+
+/** General Styles **/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: .9em 'Open Sans', Helvetica, sans-serf;
+    line-height: 1.6;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    background: #666 url(img/floralbg.jpg);
+}
+
+img {
+    max-width: 100%;
+}
+
+a.img {
+    border: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+    transition: all .2s ease;
+}
+
+a:hover {
+    color: #111;
+    border-color: #5b9bcc;
+}
+
+.container {
+    padding: 1em 1em 2em;
+    max-width: 850px;
+    margin: 0 .3em;
+    background: #fff;
+    border-radius: .7em;
+    box-shadow: 0 0 3px rgba(0,0,0,.4);
+}
+
+.no-mobile {
+    display: none;
+}
+
+h1 {
+    color: #5b9bcc;
+    font: italic bold 2.2em Georgia, Helvetica, serif;
+    text-align: center;
+}
+
+ul {
+    font-style: italic;
+}
+
+
+
+/** Navigation and Header **/
+
+header {
+    background: #333;
+    text-align: center;
+    padding: 1.3em .2em;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a, nav ul li a:visited {
+    font: bold 1.3em Georgia, Garamond, serif;
+    color: #eee;
+    border-bottom: solid 4px #333;
+    padding: .2em .1em;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    border-color: #9cc3e0;
+}
+
+.header-image {
+    min-height: 30vh;
+    filter: grayscale(100%);
+    background: url(img/homeheader.jpg) center/cover;
+}
+
+.about-page {
+    background: url(img/aboutheader.jpg) center/cover;
+}
+
+.work-page {
+    background: url(img/workheader.jpg) bottom/cover;
+}
+
+
+
+
+/** Footer **/
+
+footer {
+    background: #333;
+    text-align: center;
+    padding: 1em .2em;
+    font-size: .8em;
+    color: #eee;
+    margin-top: 3em;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer a, footer a:visited {
+    color: #eee;
+    border-color: #333;
+}
+
+footer a:hover {
+    color: #fff;
+    border-color: #5b9bcc;
+}
+
+footer ul li a img {
+    height: 20px;
+}
+
+
+
+/** Homepage Specific **/
+
+.popular-book-thumb {
+    display: block;
+    margin: 1em auto;
+    height: 200px;
+}
+
+
+
+/** Work Page Specific **/
+
+.book-page-item {
+    text-align: center;
+}
+
+.book-page-item-a {
+    border: none;
+}
+
+.book-page-item-a:hover {
+     border: none;
+}
+
+.book-page-thumb {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.book-page-item p {
+    margin-top: .3em;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+a div.book-page-item {
+    filter: grayscale(100%);
+    transition: all .15s ease;
+}
+
+a div.book-page-item:hover {
+    filter: grayscale(5%);
+}
+
+
+/** Media Queries **/
+
+@media screen and (min-width: 500px) {
+
+    .popular-book, .book-page-img, .book-page-excerpt {
+        display: inline-block;
+        width: 45%;
+        margin: 2%;
+        vertical-align: top;
+    }
+
+    .book-page-item {
+        display: inline-block;
+        width: 30%;
+        margin: 1%;
+    }
+
+    .book-page-thumb {
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+
+    nav ul li:first-child {
+        margin-right: 20em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        margin-bottom: 0;
+        margin-top: .5em;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .no-mobile {
+        display: inline;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    html {
+        font-size: 1em;
+    }
+
+    .header-image {
+        min-height: 40vh;
+    }
+
+    .container {
+        margin: 0 .7em;
+
+}
+
+
+@media screen and (min-width: 850px) {
+
+
+    nav ul li {
+        margin-right: 2em;
+    }
+
+    nav ul li:first-child {
+        margin-right: 27em;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    section {
+        padding: .5em;
+    }
+
+}
+
